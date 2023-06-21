@@ -5,8 +5,10 @@ const person = {
   age: 80,
 };
 let team=players;
-let team1=players.copyWithin(0);
-players.push("Poppy");
+let team1=[];
+for(int i=0;i<players.length;i++){
+	team1[i]=players[i];
+}
 let cap1={
 	...person
 };
