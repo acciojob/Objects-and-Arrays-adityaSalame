@@ -6,6 +6,7 @@ const person = {
 };
 let team=players;
 let team1=players.copyWithin(0);
+players.push("Poppy");
 let cap1={
 	...person
 };
