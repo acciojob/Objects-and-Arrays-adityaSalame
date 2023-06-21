@@ -5,7 +5,7 @@ const person = {
   age: 80,
 };
 let team=players;
-let team1=players.copyWithin(0);
+let team1={...players};
 
 let cap1={
 	...person
